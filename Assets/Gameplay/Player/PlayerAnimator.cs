@@ -58,7 +58,7 @@ namespace Gameplay.Player
     {
         Idle, 
         Move, 
-        Howl, 
+        Attack, 
         Hurt, 
         Dead, 
         Kill
