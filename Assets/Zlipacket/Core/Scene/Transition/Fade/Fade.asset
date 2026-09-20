@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b13a8d0484943ff8a0834c6324e005a, type: 3}
+  m_Name: Fade
+  m_EditorClassIdentifier: Assembly-CSharp::Zlipacket.Core.Scene.SceneTransition
+  transitionIn: {fileID: 5941164200483455279, guid: 6a372908e983b904eb864ca9d9c784fb, type: 3}
+  transitionOut: {fileID: 1446089193381842833, guid: 4e354732eb0c3524185230964a0b1991, type: 3}

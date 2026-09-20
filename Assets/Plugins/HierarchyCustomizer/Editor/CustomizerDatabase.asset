@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6177b594520d42447b9688bfd97e9e24, type: 3}
+  m_Name: CustomizerDatabase
+  m_EditorClassIdentifier: HierarchyCustomizer.Editor::HierarchyCustomizer.CustomizerDatabase
+  entries:
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1255939174-0
+    hasColor: 1
+    color: {r: 0.8, g: 0.24, b: 0.24, a: 1}
+    hasIcon: 1
+    iconName: Folder Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1654566022-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: AudioSource Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2050752148-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: AudioSource Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1344441793-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: AudioSource Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-295468064-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: AudioSource Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-209696040-0
+    hasColor: 1
+    color: {r: 0.25, g: 0.45, b: 0.85, a: 1}
+    hasIcon: 1
+    iconName: Folder Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1027627743-0
+    hasColor: 1
+    color: {r: 0.25, g: 0.45, b: 0.85, a: 1}
+    hasIcon: 1
+    iconName: Folder Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-330585543-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: Camera Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2138637002-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: VideoPlayer Icon
+    isCustomIcon: 0
+  - key: 4cc8b2d7b86692549843a39909f65cdc
+    hasColor: 1
+    color: {r: 0.8509804, g: 0.2980392, b: 0.82640177, a: 1}
+    hasIcon: 1
+    iconName: Tilemap Icon
+    isCustomIcon: 0
+  - key: 13ae759da9ea9834b9389ba61a594f75
+    hasColor: 1
+    color: {r: 0.55, g: 0.35, b: 0.8, a: 1}
+    hasIcon: 1
+    iconName: Tilemap Icon
+    isCustomIcon: 0
+  - key: 2f32e07e0c2f11a4185efe6b5ca44697
+    hasColor: 1
+    color: {r: 0.68758446, g: 0.9150943, b: 0.38416696, a: 1}
+    hasIcon: 1
+    iconName: Terrain Icon
+    isCustomIcon: 0
+  - key: 709f11a7f3c4041caa4ef136ea32d874
+    hasColor: 1
+    color: {r: 0.36953393, g: 0.8018868, b: 0.3063813, a: 1}
+    hasIcon: 1
+    iconName: Image Icon
+    isCustomIcon: 0
+  - key: 7e26b4af65d5f2c4c9c9495a9667ba26
+    hasColor: 1
+    color: {r: 0.2509804, g: 0.6837156, b: 0.8509804, a: 1}
+    hasIcon: 1
+    iconName: Skybox Icon
+    isCustomIcon: 0
+  - key: a9d4a08697a4da84583b587575444598
+    hasColor: 1
+    color: {r: 1, g: 0.8971794, b: 0.4198113, a: 1}
+    hasIcon: 1
+    iconName: Folder Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1972527799-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: NavMeshAgent Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-410087039-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: Light Icon
+    isCustomIcon: 0
+  - key: a60f6b2097f60fa4ba19dce41d86bc49
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: cs Script Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1118273874-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: Canvas Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1411429938-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: TrailRenderer Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-832575517-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: Skybox Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-219918693-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: Canvas Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1175004033-0
+    hasColor: 1
+    color: {r: 0.5175902, g: 0.21813813, b: 0.8113208, a: 1}
+    hasIcon: 1
+    iconName: Folder Icon
+    isCustomIcon: 0
+  - key: 3189aecc2f6f7074ab4f3bd7f123e7df
+    hasColor: 1
+    color: {r: 1, g: 0.6622807, b: 0.25, a: 1}
+    hasIcon: 0
+    iconName: 
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2054862958-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: SkinnedMeshRenderer Icon
+    isCustomIcon: 0
+  - key: 50e35888d7435164db677892f69cbf0d
+    hasColor: 1
+    color: {r: 1, g: 0.1273585, b: 0.25082186, a: 1}
+    hasIcon: 1
+    iconName: NavMeshAgent Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2084990793-0
+    hasColor: 1
+    color: {r: 0.3260659, g: 0.6603774, b: 0.2772339, a: 1}
+    hasIcon: 1
+    iconName: Folder Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-354868845-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: BoxCollider Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-379130794-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 0
+    iconName: CapsuleCollider Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-877389582-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 0
+    iconName: cs Script Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-444623841-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: Rigidbody Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1737778572-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: CapsuleCollider Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-457481406-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: cs Script Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1069451707-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: Image Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1521920948-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: SphereCollider Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1275155212-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: SphereCollider Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1904424706-0
+    hasColor: 1
+    color: {r: 0.85, g: 0.3, b: 0.6, a: 1}
+    hasIcon: 1
+    iconName: Folder Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1220144947-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: SphereCollider Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1229747290-0
+    hasColor: 1
+    color: {r: 0.7830189, g: 0.47866273, b: 0.1071111, a: 1}
+    hasIcon: 1
+    iconName: Folder Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1838840994-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: MeshRenderer Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1114702655-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: VideoPlayer Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-79646107-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: Animation Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1918302050-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 0
+    iconName: 
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1797130511-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: ReflectionProbe Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1606272197-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: WheelCollider Icon
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1883038011-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 0
+    iconName: 
+    isCustomIcon: 0
+  - key: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-517272737-0
+    hasColor: 0
+    color: {r: 0.35, g: 0.55, b: 0.85, a: 0.35}
+    hasIcon: 1
+    iconName: AudioSource Icon
+    isCustomIcon: 0

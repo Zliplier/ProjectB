@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OutlineMask
+  m_Shader: {fileID: -6465566751694194690, guid: 4345efb1a0d8ca74cb9b46eb09cd1213, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DepthOutlineThickness: 1.91
+    - _DepthSensitivity: 1
+    - _DepthSoftness: 0.4
+    - _DepthThreshold: 0.3
+    - _DepthThresholdMax: 0.2
+    - _DepthThresholdMin: 0
+    - _MaxNormalizedDepth: 50
+    - _MinThicknessScale: 0
+    - _NormalOutlineThickness: 0
+    - _NormalThresholdMax: 0.3
+    - _NormalThresholdMin: 0.19
+    - _OutlineThickness: 4
+    - _ThicknessFalloffDistance: 50
+    - _UseMultiply: 1
+    m_Colors:
+    - _OutlineColor: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
