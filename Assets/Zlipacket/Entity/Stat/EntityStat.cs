@@ -7,20 +7,28 @@ namespace Zlipacket.Entity.Stat
     [Serializable]
     public class EntityStat
     {
-        public float BaseValue;
-
-        public virtual float Value => CalculateStat();
-
-        protected readonly List<StatModifier> statModifiers;
-        public IReadOnlyCollection<StatModifier> StatModifiers => statModifiers.AsReadOnly();
-        
-        public EntityStat()
+        private float _baseValue;
+        public float BaseValue
         {
-            statModifiers = new List<StatModifier>();
+            get => _baseValue;
+            set
+            {
+                _baseValue = value;
+                CalculateStat();
+            }
         }
         
-        public EntityStat(float baseValue) : this ()
+        private float _value;
+        public virtual float Value => _value;
+        
+        protected readonly List<StatModifier> statModifiers;
+        public IReadOnlyCollection<StatModifier> StatModifiers => statModifiers.AsReadOnly();
+
+        public Action<float> OnValueChanged = null;
+        
+        public EntityStat(float baseValue)
         {
+            statModifiers = new List<StatModifier>();
             BaseValue = baseValue;
         }
         
@@ -51,7 +59,9 @@ namespace Zlipacket.Entity.Stat
                 }
             }
             
-            return (float)Math.Round(finalValue, 6);
+            _value = (float)Math.Round(finalValue, 6);
+            OnValueChanged?.Invoke(_value);
+            return _value;
         }
         
         public virtual void AddModifier(StatModifier modifier)
@@ -60,21 +70,33 @@ namespace Zlipacket.Entity.Stat
             
             //Sort from lowest order to highest.
             statModifiers.Sort((a, b) => a.Order.CompareTo(b.Order));
+            CalculateStat();
         }
 
         public virtual bool RemoveModifier(StatModifier modifier)
         {
-            return statModifiers.Remove(modifier);
+            if (statModifiers.Remove(modifier))
+            {
+                CalculateStat();
+                return true;
+            }
+            return false;
         }
 
         public virtual void RemoveAllModifiers()
         {
             statModifiers.Clear();
+            CalculateStat();
         }
 
         public virtual bool RemoveAllModifiersBySource(object source)
         {
-            return statModifiers.RemoveAll(mod => mod.Source == source) > 0;
+            if (statModifiers.RemoveAll(mod => mod.Source == source) > 0)
+            {
+                CalculateStat();
+                return true;
+            }
+            return false;
         }
     }
 }
