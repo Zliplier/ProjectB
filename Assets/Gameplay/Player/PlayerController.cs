@@ -6,7 +6,7 @@ using Zlipacket.Core.Tools.Utilities;
 
 namespace Gameplay.Player
 {
-    public class PlayerController : Singleton<PlayerController>
+    public class PlayerController : MonoBehaviour
     {
         [Header("Components")]
         [field: SerializeField] public GameObject root { get; private set; }
@@ -16,17 +16,17 @@ namespace Gameplay.Player
         private StateMachine<PlayerController> stateMachine;
         public InputBuffer inputBuffer { get; } = new InputBuffer();
 
-        public override void Awake()
+        public void Awake()
         {
-            base.Awake();
-
             stateMachine = new StateMachine<PlayerController>(this);
             
             //States
             stateMachine.AddState<PlayerIdle>();
             stateMachine.AddState<PlayerMove>();
+            stateMachine.AddState<PlayerAttack>();
             
             //Transition
+            
             
             //Any Transition
             

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace Zlipacket.Core.Input
@@ -42,7 +43,7 @@ namespace Zlipacket.Core.Input
         /// <summary>
         /// Hooks started/performed/canceled for the named action to a single callback.
         /// </summary>
-        protected void Subscribe(string actionName, System.Action<InputAction.CallbackContext> callback)
+        protected void Subscribe(string actionName, Action<InputAction.CallbackContext> callback)
         {
             var action = actionMap.FindAction(actionName, throwIfNotFound: true);
             action.started += callback;
