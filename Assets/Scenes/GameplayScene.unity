@@ -2541,7 +2541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Player.PlayerManager
   initialized: 0
-  playerCanvas: {fileID: 0}
+  playerCanvas: {fileID: 1069451712}
   playerPawn: {fileID: 203094116}
 --- !u!1 &2138637002
 GameObject:
